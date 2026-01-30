@@ -192,10 +192,10 @@ void updateEnemy(uint8_t dt) {
 
 		switch (spawnSeed) {
 		case 0:
-		    ey = 42;   // hàng 1 (bạn có thể đổi số này)
+		    ey = 42;   // hàng 1 
 		    break;
 		case 1:
-		    ey = 80;  // hàng 2 (bạn có thể đổi số này)
+		    ey = 80;  // hàng 2 
 		    break;
 		default:
 		    ey = 42;
