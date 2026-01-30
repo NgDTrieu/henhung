@@ -1,0 +1,15 @@
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:67:6:HAL_MspInit	8	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:91:6:HAL_CRC_MspInit	8	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:113:6:HAL_CRC_MspDeInit	0	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:135:6:HAL_DMA2D_MspInit	16	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:160:6:HAL_DMA2D_MspDeInit	0	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:185:6:HAL_I2C_MspInit	64	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:233:6:HAL_I2C_MspDeInit	8	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:264:6:HAL_I2S_MspInit	48	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:335:6:HAL_LTDC_MspInit	120	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:460:6:HAL_LTDC_MspDeInit	8	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:522:6:HAL_SPI_MspInit	40	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:559:6:HAL_SPI_MspDeInit	0	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:582:6:HAL_I2S_MspDeInit	8	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:710:6:HAL_SDRAM_MspInit	48	static
+E:/STM32_Projects/SpaceInvaders/Source_code/Core/Src/stm32f4xx_hal_msp.c:796:6:HAL_SDRAM_MspDeInit	8	static

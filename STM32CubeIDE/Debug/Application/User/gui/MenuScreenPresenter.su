@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/menuscreen_screen/MenuScreenPresenter.hpp:28:13:MenuScreenPresenter::~MenuScreenPresenter()	0	static
+E:/STM32_Projects/SpaceInvaders/Source_code/TouchGFX/gui/src/menuscreen_screen/MenuScreenPresenter.cpp:10:6:virtual void MenuScreenPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/menuscreen_screen/MenuScreenPresenter.hpp:28:13:virtual MenuScreenPresenter::~MenuScreenPresenter()	8	static
+../../TouchGFX/gui/include/gui/menuscreen_screen/MenuScreenPresenter.hpp:28:13:virtual void* MenuScreenPresenter::_ZThn4_N19MenuScreenPresenterD1Ev()	0	static
+E:/STM32_Projects/SpaceInvaders/Source_code/TouchGFX/gui/src/menuscreen_screen/MenuScreenPresenter.cpp:4:1:MenuScreenPresenter::MenuScreenPresenter(MenuScreenView&)	0	static

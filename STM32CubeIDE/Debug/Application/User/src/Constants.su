@@ -1,0 +1,3 @@
+../Application/User/src/Constants.cpp:15:1:Constants::~Constants()	0	static
+../Application/User/src/Constants.cpp:15:1:virtual Constants::~Constants()	8	static
+../Application/User/src/Constants.cpp:10:1:Constants::Constants()	0	static

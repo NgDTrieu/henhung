@@ -1,0 +1,4 @@
+../Application/User/src/Bullet.cpp:21:1:Bullet::~Bullet()	8	static
+../Application/User/src/Bullet.cpp:21:1:virtual Bullet::~Bullet()	8	static
+../Application/User/src/Bullet.cpp:7:1:Bullet::Bullet()	8	static
+../Application/User/src/Bullet.cpp:25:6:bool Bullet::update(uint8_t)	8	static

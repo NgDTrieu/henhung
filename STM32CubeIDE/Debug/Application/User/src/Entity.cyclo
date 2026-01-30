@@ -1,0 +1,8 @@
+../Application/User/src/Entity.cpp:14:1:Entity::~Entity()	1
+../Application/User/src/Entity.cpp:18:6:virtual bool Entity::update()	1
+../Application/User/src/Entity.cpp:14:1:virtual Entity::~Entity()	1
+../Application/User/src/Entity.cpp:7:1:Entity::Entity()	1
+../Application/User/src/Entity.cpp:23:6:void Entity::updateDisplayStatus(uint8_t)	1
+../Application/User/src/Entity.cpp:26:6:void Entity::updateCoordinate(uint16_t, uint16_t)	1
+../Application/User/src/Entity.cpp:31:6:void Entity::updateVelocity(uint16_t, uint16_t)	1
+../Application/User/src/Entity.cpp:36:6:static bool Entity::isCollide(Entity&, Entity&)	4

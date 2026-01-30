@@ -1,0 +1,6 @@
+../Application/User/src/app.cpp:147:6:void updateEnemy(uint8_t)	32	static
+../Application/User/src/app.cpp:222:6:void updateShipBullet(uint8_t)	32	static
+../Application/User/src/app.cpp:241:6:void updateEnemyBullet(uint8_t)	24	static
+../Application/User/src/app.cpp:37:6:void gameTask(void*)	48	static
+../Application/User/src/app.cpp:264:1:cpp)	16	static
+../Application/User/src/app.cpp:264:1:cpp)	16	static

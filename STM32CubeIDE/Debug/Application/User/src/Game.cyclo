@@ -1,0 +1,5 @@
+../Application/User/src/Game.cpp:7:1:Game::Game()	1
+../Application/User/src/Game.cpp:14:6:void Game::updateScore(short int)	1
+../Application/User/src/Game.cpp:18:6:void Game::update()	1
+../Application/User/src/Game.cpp:11:1:Game::~Game()	1
+../Application/User/src/Game.cpp:11:1:virtual Game::~Game()	1
