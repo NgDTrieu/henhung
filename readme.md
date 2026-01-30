@@ -12,6 +12,15 @@ Luật chơi:
 - Nguyên lý hoạt động:
   - Trạng thái nghỉ (Nhả nút): Do có điện trở kéo lên, chân GPIO nhận mức điện áp cao
   - Trạng thái kích hoạt (Nhấn nút): Mạch được nối thông xuống đất, kéo mức điện áp tại chân GPIO xuống mức thấp
+- Module PCM (DAC) theo sơ đồ sau:
+    - **BCK (Bit Clock)** → **PB13** *(I2S2_CK)*
+    - **LCK / LRCK / WS (Word Select)** → **PB12** *(I2S2_WS)*
+    - **DIN (Serial Data)** → **PB15** *(I2S2_SD)*
+    - **GND** → **GND**
+    - **VIN** → **5V**
+    - **XSMT / XMT (Enable/Unmute)** → **3V3**
+    - **FMT** → **GND** *(chọn chuẩn I2S/Philips)*
+
 ## Cấu hình phần mềm
 Trong file main.c, hàm main sẽ gọi tới osKernelStart(); chuyển quyền điều khiển CPU cho bộ lập lịch (scheduler) của freeRTOS. 
 Hệ điều hành khi này sẽ thực hiện chạy StartDefaultTask(); và GUI_Task(); đã được khởi tạo bởi osThreadNew():
@@ -494,18 +503,9 @@ void HAL_I2S_TxCpltCallback(I2S_HandleTypeDef *hi2s) {
 
 ---
 
-## Kết nối phần cứng module PCM (DAC tai nghe, ví dụ PCM5102A) qua I2S2 (SPI2)
-
-Dự án đã cấu hình **I2S2 (SPI2) ở chế độ Master Transmit** để phát âm thanh bằng DMA. Có thể nối module PCM (DAC) theo sơ đồ sau:
-
-### Wiring (STM32F429 ↔ PCM module)
-
-- **BCK (Bit Clock)** → **PB13** *(I2S2_CK)*
-- **LCK / LRCK / WS (Word Select)** → **PB12** *(I2S2_WS)*
-- **DIN (Serial Data)** → **PB15** *(I2S2_SD)*
-- **GND** → **GND**
-- **VIN** → **5V**
-- **XSMT / XMT (Enable/Unmute)** → **3V3**
-- **FMT** → **GND** *(chọn chuẩn I2S/Philips)*
+# Đóng Góp
+- Nguyễn Đăng Phúc: Hiển thị Giao diện (UI)
+- Nguyễn Đức Triệu: Logic game (Backend)
+- Trần Vương Hoàng: Ghép nối mạch và modulo âm thanh
 
 
